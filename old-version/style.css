@@ -1,0 +1,31 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+.text-muted{
+    color: #BCBBBB;
+}
+.text-thin{
+    font-weight: 100;
+}
+.title-super{
+    font-size: 60px;
+    color: orange;
+}
+.title-logo{
+    margin-top: 20px;
+}
+.background-container{
+    background: orange;
+}
+.background-title{
+    background: black;
+}
+.background-gray{
+    background : gray;
+}
+.background-img{
+    background: black;
+    border: black;
+}
