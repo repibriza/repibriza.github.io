@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login - Telemed</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>Telemedicina - Login</h3>
+    <input type="email" placeholder="Email..." id="email_field"/>
+    <input type="password" placeholder="Senha..." id="password_field"/>
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Bem-Vindo</h3>
+    <p id="user_para">Bem-vindo ao login do sistema de telemedicina. Você está logado.</p>
+    <button onclick="loggout()">Loggout</button>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDAXBlqr1ruV6CKAV7ROmThtNINOz3_ICg",
+      authDomain: "telemedicina-5e24d.firebaseapp.com",
+      databaseURL: "https://telemedicina-5e24d.firebaseio.com",
+      projectId: "telemedicina-5e24d",
+      storageBucket: "",
+      messagingSenderId: "343042999075"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>Controle de Leds com Arduino</title>
+</head>
+<body>
+
+    <div align="center">
+        <table border="0" width="15%" cellpadding="0">
+            <!--POST DO BOTAO LIGAR AMARELO-->
+            <form method="POST" action="arduino.php">
+                <p>
+                    <input type="hidden" value="Amarelo" name="estado">
+                    <input type="submit" value="    Ligar Led Amarelo   " name="amarelo">
+                </p>
+            </form>
+            <!--POST DO BOTAO LIGAR AZUL-->
+            <form method="POST" action="arduino.php">
+                <p>
+                    <input type="hidden" value="Azul" name="estado">
+                    <input type="submit" value="    Ligar Led Azul   " name="azul">
+                </p>
+            </form>
+            <!--POST DO BOTAO LIGAR LARANJA-->
+            <form method="POST" action="arduino.php">
+                <p>
+                    <input type="hidden" value="Laranja" name="estado">
+                    <input type="submit" value="    Ligar Led Laranja   " name="laranja">
+                </p>
+            </form>
+            <!--POST DO BOTAO LIGAR VERDE-->
+            <form method="POST" action="arduino.php">
+                <p><img class="" src="plot.png" alt="">
+                    <input type="hidden" value="Verde" name="estado">
+                    <input type="submit" value="    Ligar Led Verde   " name="verde">
+                </p>
+            </form>
+            <form method="POST" action="arduino.php">
+                <container>
+                  <img class="" src="plot.png" alt="">
+                </container>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
